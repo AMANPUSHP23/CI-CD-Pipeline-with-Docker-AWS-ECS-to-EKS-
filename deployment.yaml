@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: docker-app
-        image: amanpushp/docker-project:latest
+        image: amanpushp/docker-project:${BUILD_NUMBER}
         ports:
         - containerPort: 3000
 
